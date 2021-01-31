@@ -19,16 +19,19 @@ network={
     psk="testingPassword"
 }
 ```
-
 1.3.3. Tạo file rỗng có tên là SSH trong thư mục boot 
 
-1.4. Cài đặt các thư viện chung cho Vietbot và các hỗ trợ cho gói Python trên OS
+1.4. Khởi động Pi Zero Wirless
 
-1.4.1. Cắm thẻ nhớ vào Pi Zero Wireless, chờ Pi boot up xong, xác định IP của Pi
+1.4.1. Cắm thẻ nhớ vào Pi Zero Wireless, chờ Pi boot up xong, xác định IP của Pi từ Modem, Access Pint
 
 1.4.2. Sử dụng putty truy cập ssh vào địa chỉ IP của Pi với username là pi, password là raspberry
 
-1.4.3. Chạy lần lượt các lệnh sau
+### STEP2. Cài đặt các thư viện chung cho Vietbot và thư viện cho Python trên OS
+
+2.1. Cài đặt các thư viện chung cho Vietbot
+
+Chạy lần lượt các lệnh sau
 ```sh
 sudo apt-get update -y
 ```
@@ -50,9 +53,11 @@ sau đó
 ```sh
 sudo apt-get install libportaudio-dev libsdl1.2-dev libsdl-image1.2-dev libsdl-mixer1.2-dev libsdl-ttf2.0-dev libsmpeg-dev libportmidi-dev libswscale-dev libavformat-dev libavcodec-dev libfreetype6-dev -y
 ```
-sau đó
+2.2. Cài đặt các thư viện cho Python
+
+Chạy lần lượt các lệnh sau
 ```sh
-sudo apt-get install python3-setuptools python3-psutil python3-bottle python3-requests python3-dev python3-pyaudio python3-numpy python3-pip python3-wheel python3-dev-y
+sudo apt-get install python3-setuptools python3-psutil python3-bottle python3-requests python3-dev python3-pyaudio python3-numpy python3-pip python3-wheel python3-dev python-mraa -y
 ```
 sau đó
 ```sh
@@ -62,3 +67,29 @@ sau đó
 ```sh
 sudo apt-get install sudo apt-get install vlc -y
 ```
+
+### STEP3. Cài đặt các gói Python
+
+3.1. Nâng cấp PIP
+
+Chạy lần lượt các lệnh sau
+```sh
+python3 -m pip install --upgrade pip
+
+```
+3.2. Cài đặt các gói Python cơ bản
+```sh
+python3 -m pip install wheel python-Levenshtein PyAudio pyusb pygame pyalsaaudio pyyaml pydub 
+
+```
+3.3. Cài đặt các gói Python liên quan tới các Skill
+```sh
+python3 -m pip install pixel-ring apa102 spidev ffmpeg termcolor fuzzywuzzy datefinder feedparser pafy youtube-dl forecastiopy mutagen playsound wget enums wikipedia pvporcupine python-vlc nltk underthesea pyglet paho-mqtt untangle  
+
+```
+3.4. Cài đặt các gói Python liên quan tới tổng hợp và xử lý âm thanh
+```sh
+python3 -m pip install google-cloud google-cloud-speech gTTS SpeechRecognition googletrans  
+
+```
+
