@@ -4,10 +4,14 @@
 1.1. Download Raspberry Pi OS
 Tối ưu cho phần cứng Pi Zero Wireless nên Vietbot chỉ cần bản Raspberry OS Lite, kích thước 438MB, tại địa chỉ:
 https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2021-01-12/2021-01-11-raspios-buster-armhf-lite.zip
+
 1.2. Flash vào thẻ nhớ
 Sử dụng tool của Raspberry hoặc Etcher
+
 1.3. Config để vào được SSH qua WiFi
+
 1.3.1. Cắm lại thẻ nhớ vào máy
+
 1.3.2. Tạo file có tên là wpa-supplicant trong thư mục boot của thẻ nhớ với các tham số tên SSID và mật khẩu tương ứng
 ```sh
 network={
@@ -15,10 +19,15 @@ network={
     psk="testingPassword"
 }
 ```
+
 1.3.3. Tạo file rỗng có tên là SSH trong thư mục boot 
+
 1.4. Cài đặt các thư viện cho Vietbot
+
 1.4.1. Cắm thẻ nhớ vào Pi Zero Wireless, chờ Pi boot up xong, xác định IP của Pi
+
 1.4.2. Sử dụng putty truy cập ssh vào địa chỉ IP của Pi với username là pi, password là raspberry
+
 1.4.3. Chạy lần lượt các lệnh sau
 ```sh
 sudo apt-get update -y
