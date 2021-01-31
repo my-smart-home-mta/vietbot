@@ -22,25 +22,22 @@ network={
 1.4.3. Chạy lần lượt các lệnh sau
 ```sh
 sudo apt-get update -y
-}
 ```
 sau đó 
 ```sh
 sudo apt-get upgrade-y
-}
 ```
 sau đó
 ```sh
 sudo apt-get install libportaudio2 libatlas-base-dev libsdl2-mixer-2.0-0 libpq-dev libpq-dev libssl-dev openssl libffi-dev zlib1g-dev  libportmidi-dev libswscale-dev libavformat-dev libavcodec-dev libfreetype6-dev -y
 
-}
 ```
 sau đó
 ```sh
-sudo apt-get install libncurses5-dev libncursesw5-dev libreadline6-dev libdb5.3-dev libgdbm-dev libsqlite3-dev libssl-dev libbz2-dev libexpat1-dev liblzma-dev zlib1g-dev libffi-dev wget
- -y
-}
+sudo apt-get install libncurses5-dev libncursesw5-dev libreadline6-dev libdb5.3-dev libgdbm-dev libsqlite3-dev libssl-dev libbz2-dev libexpat1-dev liblzma-dev zlib1g-dev libffi-dev wget  -y
+
 ```
 sau đó
 ```sh
 sudo apt-get install libportaudio-dev libsdl1.2-dev libsdl-image1.2-dev libsdl-mixer1.2-dev libsdl-ttf2.0-dev libsmpeg-dev libportmidi-dev libswscale-dev libavformat-dev libavcodec-dev libfreetype6-dev -y
+```
