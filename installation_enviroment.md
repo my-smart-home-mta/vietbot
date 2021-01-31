@@ -92,7 +92,7 @@ python3 -m pip install pixel-ring apa102 spidev ffmpeg termcolor fuzzywuzzy date
 python3 -m pip install google-cloud google-cloud-speech gTTS SpeechRecognition googletrans  
 
 ```
-### STEP4. Config Mig và speaker
+### STEP4. Config Mig, Speaker, LED
 
 4.1. Cài đặt cho Modun 2 Mic Hat (Nếu ko sử dụng thì bỏ qua)
 
@@ -146,19 +146,19 @@ pcm.!default {
 pcm.mic {
   type plug
   slave {
-    pcm "hw:<card_id>,<card_id>"
+    pcm "hw:<card_id>,<device_id>"
   }
 }
 pcm.speaker {
   type plug
   slave {
-    pcm "hw:<card_id>,<card_id>"
+    pcm "hw:<card_id>,<device_id>"
   }
 }
 ```
 Bấm lần lượt Ctrl + X, sau đó Y rồi Enter
 
-4.2.2. Khai báo cho loa
+4.2.3. Khai báo cho loa
 Chạy lệnh sau (Khi không sử dụng Mic USB)
 
 ```sh
@@ -174,19 +174,32 @@ pcm.!default {
 pcm.speaker {
   type plug
   slave {
-    pcm "hw:<card_id>,<card_id>"
+    pcm "hw:<card_id>,<device_id>"
   }
 }
 ```
 Bấm lần lượt Ctrl + X, sau đó Y rồi Enter
 
-4.2.3. Copy file thiết lập cho mọi account (Nếu chỉ dùng Account Pi thì bỏ qua bước này)
+4.2.4. Copy file thiết lập cho mọi account (Nếu chỉ dùng Account Pi thì bỏ qua bước này)
 
 Chạy lệnh sau
 ```sh
 sudo cp /home/pi/.asoundrc /etc/asound.conf
 ```
-4.2.4. Reboot lại Pi
+4.2.5. Reboot lại Pi
+Chạy lệnh sau
+```sh
+sudo reboot
+```
+4.3. Cài đặt điều khiển Led cho Modun ReSpeaker Mic Array v2.0 hoặc ReSpeaker USB Mic Array (Nếu không dùng thì bỏ qua)
+
+4.3.1. Đưa Account đang dùng (Ví dụ pi) vào group root
+
+Chạy lệnh sau
+```sh
+sudo usermod -aG root account_name
+```
+4.3.2. Reboot lại Pi
 Chạy lệnh sau
 ```sh
 sudo reboot
