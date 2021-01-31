@@ -7,6 +7,8 @@
 
 #Danh sách các thiết bị phần cứng tương thích
 
+https://github.com/phanmemkhoinghiep/vietbot/blob/main/hardware_compatibility_list
+
 #Hướng dẫn cài đặt môi trường
 https://github.com/phanmemkhoinghiep/vietbot/blob/main/software_enviroment_installation_guide.md
 
