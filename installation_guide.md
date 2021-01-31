@@ -56,9 +56,9 @@ sudo apt-get install python3-setuptools python3-psutil python3-bottle python3-re
 ```
 sau đó
 ```sh
-sudo apt-get install python3-pygame
+sudo apt-get install python3-pygame -y
 ```
 sau đó
 ```sh
-sudo apt-get install sudo apt-get install vlc
+sudo apt-get install sudo apt-get install vlc -y
 ```
