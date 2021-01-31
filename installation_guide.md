@@ -22,7 +22,7 @@ network={
 
 1.3.3. Tạo file rỗng có tên là SSH trong thư mục boot 
 
-1.4. Cài đặt các thư viện cho Vietbot
+1.4. Cài đặt các thư viện chung cho Vietbot và các hỗ trợ cho gói Python trên OS
 
 1.4.1. Cắm thẻ nhớ vào Pi Zero Wireless, chờ Pi boot up xong, xác định IP của Pi
 
@@ -38,7 +38,7 @@ sudo apt-get upgrade-y
 ```
 sau đó
 ```sh
-sudo apt-get install libportaudio2 libatlas-base-dev libsdl2-mixer-2.0-0 libpq-dev libpq-dev libssl-dev openssl libffi-dev zlib1g-dev  libportmidi-dev libswscale-dev libavformat-dev libavcodec-dev libfreetype6-dev -y
+sudo apt-get install libportaudio2 libatlas-base-dev libsdl2-mixer-2.0-0 libpq-dev libpq-dev libssl-dev openssl libffi-dev zlib1g-dev  libportmidi-dev libswscale-dev libavformat-dev libavcodec-dev libfreetype6-dev libasound2-dev -y
 
 ```
 sau đó
@@ -49,4 +49,16 @@ sudo apt-get install libncurses5-dev libncursesw5-dev libreadline6-dev libdb5.3-
 sau đó
 ```sh
 sudo apt-get install libportaudio-dev libsdl1.2-dev libsdl-image1.2-dev libsdl-mixer1.2-dev libsdl-ttf2.0-dev libsmpeg-dev libportmidi-dev libswscale-dev libavformat-dev libavcodec-dev libfreetype6-dev -y
+```
+sau đó
+```sh
+sudo apt-get install python3-setuptools python3-psutil python3-bottle python3-requests python3-dev python3-pyaudio python3-numpy python3-pip python3-wheel python3-dev-y
+```
+sau đó
+```sh
+sudo apt-get install python3-pygame
+```
+sau đó
+```sh
+sudo apt-get install sudo apt-get install vlc
 ```
