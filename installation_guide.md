@@ -21,7 +21,7 @@ network={
 ```
 1.3.3. Tạo file rỗng có tên là SSH trong thư mục boot 
 
-1.4. Khởi động Pi Zero Wirless
+1.4. Truy cập ssh vào Pi Zero Wirless
 
 1.4.1. Cắm thẻ nhớ vào Pi Zero Wireless, chờ Pi boot up xong, xác định IP của Pi từ Modem, Access Pint
 
@@ -92,4 +92,102 @@ python3 -m pip install pixel-ring apa102 spidev ffmpeg termcolor fuzzywuzzy date
 python3 -m pip install google-cloud google-cloud-speech gTTS SpeechRecognition googletrans  
 
 ```
+### STEP4. Config Mig và speaker
 
+4.1. Cài đặt cho Modun 2 Mic Hat (Nếu ko sử dụng thì bỏ qua)
+
+4.1.1. Cắm Modun 2 Mic Hat vào Pi Zero
+
+Chạy lần lượt các lệnh sau
+```sh
+git clone https://github.com/respeaker/seeed-voicecard.git
+```
+sau đó
+```sh
+cd seeed-voicecard
+```
+sau đó
+```sh
+sudo ./install.sh
+```
+chờ cài đặt kết thúc, sau đó
+```sh
+reboot
+```
+4.2. Cài đặt cho Mic USB và Loa (Nếu ko sử dụng Mic USB thì bỏ qua phần khai báo Mic)
+
+4.2.1. Thống kê ID của Mic USB và Loa
+
+Chạy lệnh sau để biết ID của Mic USB (Nếu ko sử dụng Mic USB thì bỏ qua phần này)
+```sh
+arecord -l
+```
+sau đó chạy lệnh sau để biết ID của Loa
+
+```sh
+aplay -l
+```
+Lưu lại thông tin về card_id và device_id ở mỗi kết quả lệnh
+
+4.2.2. Khai báo cho cả Mic USB và loa
+
+Chạy lệnh sau (Nếu ko sử dụng Mic USB thì bỏ qua phần này)
+```sh
+sudo nano /home/pi/.asoundrc
+```
+Cửa sổ nano hiện lên, paste dòng sau, thay thế <card_id> và <device_id> bằng kết quả đã lưu:
+
+```sh
+pcm.!default {
+  type asym
+  capture.pcm "mic"
+  playback.pcm "speaker"
+}
+pcm.mic {
+  type plug
+  slave {
+    pcm "hw:<card_id>,<card_id>"
+  }
+}
+pcm.speaker {
+  type plug
+  slave {
+    pcm "hw:<card_id>,<card_id>"
+  }
+}
+```
+Bấm lần lượt Ctrl + X, sau đó Y rồi Enter
+
+4.2.2. Khai báo cho loa
+Chạy lệnh sau (Khi không sử dụng Mic USB)
+
+```sh
+sudo nano /home/pi/.asoundrc
+```
+Cửa sổ nano hiện lên, paste dòng sau, thay thế <card_id> và <device_id> bằng kết quả đã lưu:
+
+```sh
+pcm.!default {
+  type asym
+  playback.pcm "speaker"
+}
+pcm.speaker {
+  type plug
+  slave {
+    pcm "hw:<card_id>,<card_id>"
+  }
+}
+```
+Bấm lần lượt Ctrl + X, sau đó Y rồi Enter
+
+4.2.3. Copy file thiết lập cho mọi account (Nếu chỉ dùng Account Pi thì bỏ qua bước này)
+
+Chạy lệnh sau
+```sh
+sudo cp /home/pi/.asoundrc /etc/asound.conf
+```
+4.2.4. Reboot lại Pi
+Chạy lệnh sau
+```sh
+sudo reboot
+```
