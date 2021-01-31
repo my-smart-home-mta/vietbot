@@ -94,9 +94,9 @@ python3 -m pip install google-cloud google-cloud-speech gTTS SpeechRecognition g
 ```
 ### STEP4. Config Mig, Speaker, LED
 
-4.1. Cài đặt cho Modun 2 Mic Hat (Nếu ko sử dụng thì bỏ qua)
+4.1. Cài đặt cho Modun ReSpeaker 2 Mic Hat hoặc ReSpeaker 4-Mic Array for Raspberry Pi (Nếu ko sử dụng thì bỏ qua)
 
-4.1.1. Cắm Modun 2 Mic Hat vào Pi Zero
+4.1.1. Cắm Modun 2 Mic Hat hoặc ReSpeaker 4-Mic Array vào Pi Zero
 
 Chạy lần lượt các lệnh sau
 ```sh
@@ -114,6 +114,7 @@ chờ cài đặt kết thúc, sau đó
 ```sh
 reboot
 ```
+
 4.2. Cài đặt cho Mic USB và Loa (Nếu ko sử dụng Mic USB thì bỏ qua phần khai báo Mic)
 
 4.2.1. Thống kê ID của Mic USB và Loa
