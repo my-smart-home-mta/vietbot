@@ -32,4 +32,6 @@ Nhà thông minh MQTT:
 
 #Hướng dẫn cấu hình 
 
+https://github.com/phanmemkhoinghiep/vietbot/blob/main/configuration_guide.md
+
 #Hướng dẫn chạy
