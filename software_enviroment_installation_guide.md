@@ -37,7 +37,7 @@ sudo apt-get update -y
 ```
 sau đó 
 ```sh
-sudo apt-get upgrade-y
+sudo apt-get upgrade -y
 ```
 sau đó
 ```sh
