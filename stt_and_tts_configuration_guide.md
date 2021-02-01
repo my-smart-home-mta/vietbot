@@ -1,8 +1,8 @@
 Vietbot sử dụng STT (Speed to Text) Online để nhận diện câu lệnh và TTS (Text to Speech) Online để phát câu phản hồi, Vietbot hỗ trợ các
 STT và TTS sau:
 
-### STEP1. Cấu hình STT và TTS Google
-
+### STEP1. Cấu hình STT & TTS Google
+Vietbot hỗ trợ STT & TTS Google là Engine chính cho quá trình STT & TTS
 1.1. Cấu hình STT
 
 STT Google cần tạo file .json, làm theo các bước sau
@@ -31,13 +31,14 @@ TTS Google cần sử dụng API, làm theo các bước sau
 
 Làm theo các bước hướng dẫn cho đến khi tạo ra API thì copy và lưu lại API
 
-### STEP2.  Cấu hình TTS FPT, Viettel, ZALO
-Trong trường hợp muốn sử dụng giọng phản hồi khác hoặc giọng địa phương, Vietbot cũng hỗ trợ TTS của FPT, Viettel và Zalo theo các bước sau:
+### STEP2.  Cấu hình STT & TTS FPT, Viettel, ZALO
 
-2.1. Register Free FPT TTS Account and get API at: https://fpt.ai/
+Trong trường hợp muốn sử dụng các Engine khác để phản hồi bằng giọng địa phương, Vietbot cũng hỗ trợ FPT, Viettel và Zalo theo các bước sau:
 
-2.2. Register Free Viettel TTS Account and get Token at: https://viettelgroup.ai/en
+2.1. Đăng ký Acc FPT AI (Miễn phí) cho cả STT và TTS tại: https://fpt.ai/
 
-2.3. Register Free ZALO TTS Account and get Token at: https://zalo.ai/user-profile
+2.2. Đăng ký Acc Viettel AI (Miễn phí) cho cả STT và TTS tại: https://viettelgroup.ai/en
+
+2.3. Đăng ký Acc Zalo AI (Miễn phí) cho cả STT và TTS tại: https://zalo.ai/user-profile
 
 
