@@ -26,6 +26,8 @@ https://github.com/phanmemkhoinghiep/vietbot/blob/main/stt_and_tts_configuration
 
 Nhà thông minh HomeAssistant:
 
+https://github.com/phanmemkhoinghiep/vietbot/blob/main/homeassistant_configuration_guide.md
+
 Nhà thông minh MQTT:
 
 #Hướng dẫn cấu hình 
