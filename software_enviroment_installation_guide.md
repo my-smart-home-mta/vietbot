@@ -65,7 +65,7 @@ sudo apt-get install python3-pygame -y
 ```
 sau đó
 ```sh
-sudo apt-get install sudo apt-get install vlc -y
+sudo apt-get install vlc -y
 ```
 
 ### STEP3. Cài đặt các gói Python
