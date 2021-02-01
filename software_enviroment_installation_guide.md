@@ -63,7 +63,10 @@ sau đó
 ```sh
 sudo apt-get install vlc -y
 ```
-
+sau đó
+```sh
+sudo apt-get install git
+```
 ### STEP3. Cài đặt các gói Python
 
 3.1. Nâng cấp PIP
