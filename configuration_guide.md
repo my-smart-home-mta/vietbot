@@ -7,7 +7,6 @@ Vietbot hỗ trợ File cấu hình các tham số của bot tại file config.y
 
 1.1.1. STT Engine
 
-Điều chỉnh mục sau
 ```sh
 stt_engine: x
 ```
