@@ -65,6 +65,7 @@ tts_zalo_speed: y
 ```
 x có các giá trị sau: 1,2,3,4
 y có các giá trị từ 0.1 tới 1.0
+
 1.2.4. Giá trị âm lượng
 ```sh
 volume: x
