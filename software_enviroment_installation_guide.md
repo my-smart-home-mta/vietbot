@@ -12,7 +12,7 @@ Sử dụng tool của Raspberry hoặc Etcher
 
 1.3.1. Cắm lại thẻ nhớ vào máy
 
-1.3.2. Tạo file có tên là wpa-supplicant trong thư mục boot của thẻ nhớ với các tham số tên SSID và mật khẩu tương ứng
+1.3.2. Sử dụng Notepad ++ để tạo file có tên là wpa-supplicant trong thư mục boot của thẻ nhớ với  định dạng file EOL Conversion là Unix (LF), nội dung là các tham số tên SSID và mật khẩu tương ứng
 ```sh
 network={
     ssid="testing"
