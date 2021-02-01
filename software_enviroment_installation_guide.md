@@ -57,7 +57,7 @@ sudo apt-get install libportaudio-dev libsdl1.2-dev libsdl-image1.2-dev libsdl-m
 
 Chạy lần lượt các lệnh sau
 ```sh
-sudo apt-get install python3-setuptools python3-psutil python3-bottle python3-requests python3-dev python3-pyaudio python3-numpy python3-pip python3-wheel python3-dev python-mraa python3-pygame -y
+sudo apt-get install python3-pip python3-setuptools python3-psutil python3-bottle python3-requests python3-dev python3-pyaudio python3-numpy python3-pip python3-wheel python3-dev python-mraa python3-pygame -y
 ```
 sau đó
 ```sh
