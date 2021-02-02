@@ -16,10 +16,12 @@ Có dạng: http://abc.def:8123 (Có thể không có 8123) hoặc không với 
 
 3.1. Nhập các giá trị tại 1.1 và 1.2 vào file config
 
-3.2. Sửa dòng 
+3.2. Sửa dòng sau trong file config
 ```sh
 use_hass: 1
 ```
+3.3. Save lại
+
 ### STEP4.  Chỉnh sửa trong File config.yaml
 
 4.1. Chạy lại bot theo hướng dẫn tại https://github.com/phanmemkhoinghiep/vietbot/blob/main/running_guide.md
