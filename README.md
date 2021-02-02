@@ -30,6 +30,8 @@ https://github.com/phanmemkhoinghiep/vietbot/blob/main/homeassistant_configurati
 
 Nhà thông minh MQTT:
 
+https://github.com/phanmemkhoinghiep/vietbot/blob/main/mqtt_configuration_guide.md
+
 #Hướng dẫn cấu hình 
 
 https://github.com/phanmemkhoinghiep/vietbot/blob/main/configuration_guide.md
