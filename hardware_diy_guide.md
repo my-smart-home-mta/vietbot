@@ -28,7 +28,7 @@ Hướng dẫn độ Bot từ loa GH Minh
 
 2.2. Mỏ hàn + thiếc: 01 bộ
 
-2.3. Súng bắn keo nhiệt: 01 cái
+2.3. Súng bắn keo nhiệt + keo nhiệt: 01 bộ
 
 2.4. Cưa lọng: 01 cái
 
@@ -59,6 +59,10 @@ Gỡ theo các bước sau
 4.1. Hàn dây jump với jack nguồn như hình
 
 
-![HÀN DÂY CÔNG TẮC NGUỒ](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H1_han_nguon.jpg)
+![HÀN DÂY JACK NGUỒN](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H1_han_nguon.jpg)
 
+![HÀN VỚI CÔNG TẮC MIC ĐỂ LÀM CÔNG TẮC NGUỒN](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H21_hancongtac.jpg)
 
+![SAU KHI HÀN XONG](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H22_hancongtac.jpg)
+
+![HÀN LOA VỚI JACK MINI JST 2.0 CÁI](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H3_han_loa.jpg)
