@@ -118,11 +118,11 @@ chờ cài đặt kết thúc, sau đó
 reboot
 ```
 
-4.2. Cài đặt cho Mic USB và Loa (Nếu ko sử dụng Mic USB thì bỏ qua phần khai báo Mic)
+4.2. Cài đặt cho Mic USB và Loa 
 
-4.2.1. Thống kê ID của Mic USB và Loa
+4.2.1. Thống kê ID của Mic USB và Loa (Chỉ dành cho sử dụng Mic USB Soundcard USB hoặc sử dụng phiên bản Pi có nhiều hơn 1 Sound card hoặc cả hai)
 
-Chạy lệnh sau để biết ID của Mic USB (Nếu ko sử dụng Mic USB thì bỏ qua phần này)
+Chạy lệnh sau để biết ID của Mic USB
 ```sh
 arecord -l
 ```
@@ -133,9 +133,9 @@ aplay -l
 ```
 Lưu lại thông tin về card_id và device_id ở mỗi kết quả lệnh
 
-4.2.2. Khai báo cho cả Mic USB và loa
+4.2.2. Khai báo cho cả Mic USB (Nếu ko sử dụng Mic USB thì bỏ qua phần này)
 
-Chạy lệnh sau (Nếu ko sử dụng Mic USB thì bỏ qua phần này)
+Chạy lệnh sau 
 ```sh
 sudo nano /home/pi/.asoundrc
 ```
@@ -144,16 +144,9 @@ Cửa sổ nano hiện lên, paste dòng sau, thay thế <card_id> và <device_i
 ```sh
 pcm.!default {
   type asym
-  capture.pcm "mic"
-  playback.pcm "speaker"
+  capture.pcm "mic"  
 }
 pcm.mic {
-  type plug
-  slave {
-    pcm "hw:<card_id>,<device_id>"
-  }
-}
-pcm.speaker {
   type plug
   slave {
     pcm "hw:<card_id>,<device_id>"
@@ -162,8 +155,8 @@ pcm.speaker {
 ```
 Bấm lần lượt Ctrl + X, sau đó Y rồi Enter
 
-4.2.3. Khai báo cho loa
-Chạy lệnh sau (Khi không sử dụng Mic USB)
+4.2.3. Khai báo cho loa (Nếu ko sử dụng phiên bản Pi có nhiều hơn 1 Sound card thì bỏ qua phần này)
+Chạy lệnh sau 
 
 ```sh
 sudo nano /home/pi/.asoundrc
