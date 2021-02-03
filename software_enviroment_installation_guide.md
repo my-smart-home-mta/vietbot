@@ -120,7 +120,7 @@ reboot
 
 4.2. Cài đặt cho Mic USB và Loa 
 
-4.2.1. Thống kê ID của Mic USB và Loa (Chỉ dành cho sử dụng Mic USB Soundcard USB hoặc sử dụng phiên bản Pi có nhiều hơn 1 Sound card hoặc cả hai)
+4.2.1. Thống kê ID của Mic USB và Loa (Chỉ dành cho 1/sử dụng Mic USB Soundcard USB hoặc 2/sử dụng phiên bản Pi có nhiều hơn 1 Sound card hoặc cả 1/ và 2/)
 
 Chạy lệnh sau để biết ID của Mic USB
 ```sh
