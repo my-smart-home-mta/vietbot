@@ -13,7 +13,11 @@ Sử dụng tool của Raspberry hoặc Etcher
 1.3.1. Cắm lại thẻ nhớ vào máy
 
 1.3.2. Sử dụng Notepad ++ để tạo file có tên là wpa-supplicant trong thư mục boot của thẻ nhớ với  định dạng file EOL Conversion là Unix (LF), nội dung là các tham số tên SSID và mật khẩu tương ứng
+Chú ý, tham số country có thể đổi sang us hoặc vn tùy theo cài đặt tại bộ phát WiFi
 ```sh
+country=vn
+update_config=1
+ctrl_interface=/var/run/wpa_supplicant
 network={
     ssid="testing"
     psk="testingPassword"
@@ -41,7 +45,7 @@ sudo apt-get upgrade -y
 ```
 sau đó
 ```sh
-sudo apt-get install libportaudio2 libatlas-base-dev libsdl2-mixer-2.0-0 libpq-dev libpq-dev libssl-dev openssl libffi-dev zlib1g-dev  libportmidi-dev libswscale-dev libavformat-dev libavcodec-dev libfreetype6-dev libasound2-dev -y
+sudo apt-get install git libportaudio2 libatlas-base-dev libsdl2-mixer-2.0-0 libpq-dev libpq-dev libssl-dev openssl libffi-dev zlib1g-dev  libportmidi-dev libswscale-dev libavformat-dev libavcodec-dev libfreetype6-dev libasound2-dev -y
 
 ```
 sau đó
