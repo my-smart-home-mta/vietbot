@@ -45,7 +45,7 @@ sudo apt-get upgrade -y
 ```
 sau đó
 ```sh
-sudo apt-get install git libportaudio2 libatlas-base-dev libsdl2-mixer-2.0-0 libpq-dev libpq-dev libssl-dev openssl libffi-dev zlib1g-dev  libportmidi-dev libswscale-dev libavformat-dev libavcodec-dev libfreetype6-dev libasound2-dev -y
+sudo apt-get install libportaudio2 libatlas-base-dev libsdl2-mixer-2.0-0 libpq-dev libpq-dev libssl-dev openssl libffi-dev zlib1g-dev  libportmidi-dev libswscale-dev libavformat-dev libavcodec-dev libfreetype6-dev libasound2-dev -y
 
 ```
 sau đó
