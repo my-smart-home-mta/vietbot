@@ -1,7 +1,7 @@
 # vietbot
 #Giới thiệu:
 
-Đây là phần mềm Việt Bot do Nguyễn Duy tự phát triển, bắt đàu chia sẻ từ ngày 31/1/2021
+Đây là phần mềm Việt Bot do Nguyễn Duy tự phát triển, kế thừa ý tưởng của bot vinahome của thangnd85, bắt đàu chia sẻ từ ngày 31/1/2021
 
 #Danh mục tài liệu
 
