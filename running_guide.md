@@ -39,7 +39,7 @@ RestartSec=1
 Restart=on-failure
 StandardOutput=syslog
 StandardError=syslog
-SyslogIdentifier=vinahome
+SyslogIdentifier=vietbot
 [Install]
 WantedBy=multi-user.target
 ```
