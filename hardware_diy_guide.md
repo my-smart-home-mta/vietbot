@@ -58,5 +58,5 @@ Gỡ theo các bước sau
 
 4.1. Hàn dây jump với jack nguồn như hình
 
-[[/images/H1_han_nguon.jpg|HÀN DÂY CÔNG TẮC NGUỒN]]
+[[https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H1_han_nguon.jpg|HÀN DÂY CÔNG TẮC NGUỒN]]
 
