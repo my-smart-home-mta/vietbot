@@ -117,7 +117,7 @@ chờ cài đặt kết thúc
 khởi động lại
 
 ```sh
-reboot
+sudo reboot
 
 ```
 
@@ -127,15 +127,15 @@ sau đó xóa file asound.conf
 sudo cp /etc/asound.conf asound.conf.bak
 sudo rm -rf /etc/asound.conf
 ```
-gỡ bỏ pulseaudio bằng lệnh
+gỡ bỏ pulseaudio bằng lệnh (Nếu không cài đặt pulseaudio trước đây thì bỏ qua bước này
 
 ```sh
-sudo apt-get purge pulse audio
+sudo apt-get purge pulseaudio -y
 ```
-Sau đó khởi động lại
+Sau đó khởi động lại (Nếu không cài đặt pulseaudio trước đây thì bỏ qua bước này
 
 ```sh
-reboot
+sudo reboot
 ```
 
 Sau khi khởi động lại vào alxamixer bằng lệnh
