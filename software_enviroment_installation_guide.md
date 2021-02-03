@@ -113,17 +113,32 @@ sau đó
 ```sh
 sudo ./install.sh
 ```
-chờ cài đặt kết thúc, sau đó
+chờ cài đặt kết thúc, sau đó xóa file asound.conf
 
 ```sh
 sudo cp /etc/asound.conf asound.conf.bak
 sudo rm -rf /etc/asound.conf
 ```
+
+Và gỡ bỏ pulseaudio bằng lệnh
+
+```sh
+sudo apt-get purge pulse audio
+```
+
 Sau đó khởi động lại
 
 ```sh
 reboot
 ```
+
+Sau khi khởi động lại vào alxamixer bằng lệnh
+
+```sh
+alsamixer
+```
+bấm F6 để chọn sound card seed, sau đó bấm F5, dùng phím lên trên bàn phím để kéo hết các giá trị lên Max, phím trái, phải để chọn các giá trị Stereo tại các mục tương ứng
+
 
 4.2. Cài đặt cho Mic USB và Loa 
 
