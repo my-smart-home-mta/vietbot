@@ -2,8 +2,8 @@
 ### STEP1. Cài đặt hệ điều hành Raspbian
 
 1.1. Download Raspberry Pi OS
-Tối ưu cho phần cứng Pi Zero Wireless nên Vietbot chỉ cần bản Raspberry OS Lite, kích thước 438MB, tại địa chỉ:
-https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2021-01-12/2021-01-11-raspios-buster-armhf-lite.zip
+Tối ưu cho phần cứng Pi Zero Wireless nên Vietbot chỉ cần bản OS Buster Lite, download đúng phiên bản sau tại địa chỉ:
+https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2020-08-24/2020-08-20-raspios-buster-armhf-lite.zip
 
 1.2. Flash vào thẻ nhớ
 Sử dụng tool của Raspberry hoặc Etcher
