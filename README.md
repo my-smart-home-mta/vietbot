@@ -9,6 +9,10 @@
 
 https://github.com/phanmemkhoinghiep/vietbot/blob/main/hardware_compatibility_list
 
+#Hướng dẫn độ loa thông minh từ GH Mini
+
+https://github.com/phanmemkhoinghiep/vietbot/blob/main/hardware_diy_guide.md
+
 #Hướng dẫn cài đặt môi trường
 
 https://github.com/phanmemkhoinghiep/vietbot/blob/main/software_enviroment_installation_guide.md
