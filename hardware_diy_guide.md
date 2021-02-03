@@ -78,6 +78,6 @@ Gỡ theo các bước sau
 
 4.4.2. Hàn dây nguồn với đầu Micro USB gập vuông như hình
 
-![LUỒN DÂY LOA QUA LỖ, HÀN DÂY NGUỒN VỚI MICRO USB ](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H3_han_loa.jpg)
+![LUỒN DÂY LOA QUA LỖ, HÀN DÂY NGUỒN VỚI MICRO USB ](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H4_luon_day.jpg)
 
 
