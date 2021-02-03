@@ -19,6 +19,8 @@ Hướng dẫn độ Bot từ loa GH Minh
 
 1.8. Cáp Micro 1 đầu USB khoảng 10cm: 01 cái
 
+1.9. Cút nhựa đường kính 90: 01 cái
+
 
 ### STEP2. Danh mục công cụ cần thiết
 
@@ -33,3 +35,7 @@ Hướng dẫn độ Bot từ loa GH Minh
 2.6. Kìm cắt: 01 cái
 
 2.7. Băng dính 2 mặt: 01 cuộn
+
+2.8. Thước rút: 01 cái
+
+2.9. Cưa tay: 01 cái
