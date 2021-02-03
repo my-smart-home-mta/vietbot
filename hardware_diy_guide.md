@@ -39,3 +39,24 @@ Hướng dẫn độ Bot từ loa GH Minh
 2.8. Thước rút: 01 cái
 
 2.9. Cưa tay: 01 cái
+
+2.10. Bộ tô vít đa nwang: 01 bộ
+
+2.11. Dao trổ: 01 bộ
+
+### STEP3. Gỡ GH Mini
+
+Gỡ theo các bước sau
+
+3.1. Dùng dao trổ nậy lớp keo dán dưới đáy GH Mini
+
+3.2. Dùng tô vít đa năng để tháo ốc
+
+3.3. Tiếp tục dùng tô vít đa năng gỡ bỏ lần lượt các thành phần
+
+### STEP4. Hàn dây
+
+4.1. Hàn dây jump với jack nguồn như hình
+
+[[/images/H1_han_nguon.jpg|HÀN DÂY CÔNG TẮC NGUỒN]]
+
