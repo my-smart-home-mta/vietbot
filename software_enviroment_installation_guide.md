@@ -112,19 +112,26 @@ sau đó
 ```sh
 sudo ./install.sh
 ```
-chờ cài đặt kết thúc, sau đó xóa file asound.conf
+chờ cài đặt kết thúc
+
+khởi động lại
+
+```sh
+reboot
+
+```
+
+sau đó xóa file asound.conf
 
 ```sh
 sudo cp /etc/asound.conf asound.conf.bak
 sudo rm -rf /etc/asound.conf
 ```
-
-Và gỡ bỏ pulseaudio bằng lệnh
+gỡ bỏ pulseaudio bằng lệnh
 
 ```sh
 sudo apt-get purge pulse audio
 ```
-
 Sau đó khởi động lại
 
 ```sh
