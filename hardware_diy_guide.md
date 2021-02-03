@@ -58,11 +58,26 @@ Gỡ theo các bước sau
 
 4.1. Hàn dây jump với jack nguồn như hình
 
-
 ![HÀN DÂY JACK NGUỒN](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H1_han_nguon.jpg)
+
+4.2. Hàn tiếp dây jump với jack nguồn như hình
 
 ![HÀN VỚI CÔNG TẮC MIC ĐỂ LÀM CÔNG TẮC NGUỒN](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H21_hancongtac.jpg)
 
+
 ![SAU KHI HÀN XONG](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H22_hancongtac.jpg)
 
-![HÀN LOA VỚI JACK MINI JST 2.0 CÁI](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H3_han_loa.jpg)
+4.3. Hàn loa với jack Minini JST 2.0 Đực như hình
+
+![HÀN DÂY LOA VỚI JACK MINI JST](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H3_han_loa.jpg)
+
+
+4.4. Luồn dây loa qua lỗ và hàn dây
+
+4.4.1. luồn dây nguồn, dây loa qua lỗ
+
+4.4.2. Hàn dây nguồn với đầu Micro USB gập vuông như hình
+
+![LUỒN DÂY LOA QUA LỖ, HÀN DÂY NGUỒN VỚI MICRO USB ](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H3_han_loa.jpg)
+
+
