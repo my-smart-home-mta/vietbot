@@ -74,10 +74,57 @@ Gỡ theo các bước sau
 
 4.4. Luồn dây loa qua lỗ và hàn dây
 
-4.4.1. luồn dây nguồn, dây loa qua lỗ
+4.4.1. Lắp đặt mặt nhôm trở lại đế của Gh Mini
 
-4.4.2. Hàn dây nguồn với đầu Micro USB gập vuông như hình
+4.4.2. luồn dây nguồn, dây loa qua lỗ
+
+4.4.3. Hàn dây nguồn với đầu Micro USB gập vuông như hình
 
 ![LUỒN DÂY LOA QUA LỖ, HÀN DÂY NGUỒN VỚI MICRO USB ](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H4_luon_day.jpg)
 
+4.5. Hàn dây 3.5mm với 1 đầu Jack Mini JST2.0 như hình
+
+![HÀN DÂY 3.5MM ](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H10_Jack_3.5.jpg)
+
+### STEP5. Lắp đặt Pi Zero W và Modun 2 Mic Hat
+
+5.1. Dùng băng dính 2 mặt, dán Pi Zero W lên mặt nhôm như hình
+
+![GẮN PI ZERO W ](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H6_Lap_Pi.jpg)
+
+5.2. Gắn Modun 2 Mic Hat như hình, có 2 tùy chọn
+
+5.2.1. Gắn 2 MIC HAT với loa qua cổng JST 2.0, âm thanh sẽ to do 2 MIC HAT có Amply, tuy nhiên là âm thanh Mono, như hình
+
+![GẮN 2 MIC HAT DÙNG JST](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H7_Lap_Pi_Hat.jpg)
+
+5.2.2. Gắn 2 MIC HAT với loa qua cổng 3.5mm, khi đó sẽ dùng thêm cáp 3.5mm vừa tạo, âm thanh sẽ nhỏ, tuy nhiên là âm thanh Stereo, như hình
+
+![GẮN 2 MIC HAT DÙNG 3.5MM ](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H11_dau_jack_3.5.jpg)
+
+### STEP6. Khoan vỏ
+
+6.1. Dùng cưa lọng, cưa bỏ phần mặt trên của GH Mini, sao cho 2 Mic Array Left, Right lộ ra ngoài
+
+6.2. Cắt bỏ đoạn cút nhựa lấy kích thước khoảng 2cm
+
+6.3. Hàn cút nhựa với nắp GH Mini như hình
+
+![CẬN CẢNH NẮP ](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H91_Lam_nap.jpg)
+
+![CẬN CẢNH NẮP ](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H92_Lam_nap.jpg)
+
+![CẬN CẢNH NẮP ](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H93_Lam_nap.jpg)
+
+### STEP7. Lắp vỏ
+
+Lắp vỏ theo chiều thẳng đứng
+
+7.1. Với trường hợp dùng jack JST 2.0 như hình
+
+![ĐÓNG NẮP ](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H121_dong_nap.jpg)
+
+7.1. Với trường hợp dùng jack 3.5mm như hình
+
+![ĐÓMNG NẮP ](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H122_dong_nap.jpg)
 
