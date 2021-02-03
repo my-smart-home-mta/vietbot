@@ -65,11 +65,7 @@ sudo apt-get install python3-pip python3-setuptools python3-psutil python3-bottl
 ```
 sau đó
 ```sh
-sudo apt-get install vlc -y
-```
-sau đó
-```sh
-sudo apt-get install git
+sudo apt-get install vlc git -y
 ```
 ### STEP3. Cài đặt các gói Python
 
