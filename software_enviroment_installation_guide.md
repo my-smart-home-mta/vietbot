@@ -114,6 +114,13 @@ sau đó
 sudo ./install.sh
 ```
 chờ cài đặt kết thúc, sau đó
+
+```sh
+sudo cp /etc/asound.conf asound.conf.bak
+sudo rm -rf /etc/asound.conf
+```
+Sau đó khởi động lại
+
 ```sh
 reboot
 ```
